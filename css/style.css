@@ -1,0 +1,187 @@
+
+/* Define the main Navigation block */
+.myNav {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background-image: linear-gradient(to right, rgba(222, 225, 240, 0), rgb(1, 3, 23));
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Remove bullets, margin and padding */
+.myNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.myNav li {
+    float: left;
+    /* Or you can use display: inline; */
+}
+/* Define the block styling for the links */
+.myNav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+/* This is optional, however if you want to display the active link differently apply a background to it */
+.myNav li a.active {
+    background-color: #37e181;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom, rgb(46, 46, 47), rgb(73, 177, 225));
+    background-repeat: no-repeat;
+}
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../images/1809456.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.hero h1 {
+    /* Text styles */
+    font-size: 4em;
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    /* Border styles */
+    border: 3px solid white;
+    border-radius: 20px;
+    
+    /* Background styles */
+    background-color: rgba(192, 181, 213, 0.8);
+}
+.about-section {
+    padding: 50px;
+    text-align: center;
+
+    color: white;
+    border:5px solid black;
+}
+
+.skills-section {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    border:5px solid black;
+}
+
+* {
+    box-sizing: border-box;
+}  
+
+.column {
+    float: left;
+    width: 50%;
+}  
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.about{
+    text-align: center;
+    border:5px solid black;
+    
+}
+
+.education{
+    text-align: left;
+    padding: 35px;
+    margin: 0%;
+    color: white;
+    border:5px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    color:white ;
+    padding:30px;
+    border:5px solid black;
+}
+
+.margin_padding_loss{
+    padding: 0%;
+    margin: 0%;
+}
+.projects{
+    text-align: center;
+    color: white;
+}
